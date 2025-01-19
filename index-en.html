@@ -12,68 +12,74 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="./swiper-bundle.min.css" />
     <title>GatosLocosTours</title>
   </head>
   <body>
     <header>
       <nav class="navbar">
-        <a href="./index.html" class="logo">大阪</a>
+        <!-- <a href="./index.html" class="logo">大阪</a> -->
+        <li class="lastLink logo">
+          <span id="englishBtn">
+            <a href="index-en.html">
+              🇬🇧
+            </a>
+          </span>
+
+          <span id="spanishBtn">
+            <a href="index.html">
+              🇪🇸
+            </a>
+          </span>
+
+          <span id="spanishBtn">
+            <a href="index-fr.html"> 🇫🇷</a>
+          </span>
+        </li>
 
         <ul class="menu-links">
           <span id="close-menu-btn" class="material-symbols-outlined"
             ><i class="ri-close-large-line"></i
           ></span>
 
- <li><a href="https://www.facebook.com/share/15miQaSneF/?mibextid=wwXIfr" class="fa fa-facebook"></a></li>
-          <li><a href="https://www.instagram.com/sushilila?igsh=MXVkYnZsMGF4MmpneA%3D%3D&utm_source=qr" class="fa fa-instagram"></a></li>
-
-          <li class="lastLink">
-            <span id="englishBtn">
-              <a href="index-en.html">
-                🇬🇧
-              </a>
-            </span>
-
-            <span id="spanishBtn">
-              <a href="index.html">
-                🇪🇸
-              </a>
-            </span>
-
-            <span id="spanishBtn">
-              <a href="index-fr.html"> 🇫🇷</a>
-            </span>
-          </li>
+          <li><a href="#" class="fa fa-facebook"></a></li>
+          <li><a href="#" class="fa fa-instagram"></a></li>
         </ul>
         <span id="menu-btn" class="material-symbols-outlined"
           ><i class="ri-menu-line"></i
         ></span>
       </nav>
     </header>
+
     <section class="hero-section">
       <div class="content">
-        <h1 id="h1Index">Gatos Locos Tours</h1>
+        <!-- <h1 id="h1Index">Gatos Locos Tours</h1> -->
+        <img src="./imgs/logo.png" alt="" class="gato" />
         <p id="p1Index">
           We offer guided tours in the Kansai area (Osaka, Nara, Kobe, Kyoto) in
-          Spanish, French and English.<br /><br />
+          Spanish, French and English.<br />
           Come enjoy the wonders of Japan with the best experienced local tour
-          guides.<br /><br />
+          guides.<br />
           We also do airport transfers.<br /><br />
           Book now and let ‘s have fun together!<br /><br />
           *Other services :<br /><br />
           The Tomodachi package for locals!<br /><br />
           Do you live in Japan and don't have anyone to go out with?
-          <br /><br />
+          <br />
           No problem, I got you!
         </p>
 
         <a id="aIndex" href="https://api.whatsapp.com/send?phone=819039052381"
-          >Book Now! <i class="ri-whatsapp-fill"></i
+          >Book Now <i class="ri-whatsapp-fill"></i
         ></a>
         <!-- <a href="#">Agendar<i class="ri-whatsapp-fill"></i></a>
         <button>Agendar </button> -->
       </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
