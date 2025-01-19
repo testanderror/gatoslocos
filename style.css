@@ -22,7 +22,7 @@
 }
 
 body{
-  background: url('./imgs/background2.jpg');
+  background: url('background2.jpg');
   background-position: center;
   background-size: cover;
   backdrop-filter: blur(2px);
