@@ -22,7 +22,7 @@
 }
 
 body{
-  background: url('./background.jpg');
+  background: url('./imgs/background2.jpg');
   background-position: center;
   background-size: cover;
   backdrop-filter: blur(2px);
@@ -59,15 +59,20 @@ header .navbar{
 
 .navbar .logo{
   color: #fff;
-  font-size: 4.5rem;
-  /* font-weight: 600; */
+  font-size: 2.5rem;
   font-family: 'Nagayama';
   src: url('./nagayama_kai08.otf') format('opentype');
 }
 
-/* .navbar .logo span{
+.gato{
+  height: 400px;
+  /* filter: contrast(150%); */
+  filter: hue-rotate(330deg) saturate(120%) brightness(110%);
+}
+
+.navbar .logo span{
   color: cadetblue;
-} */
+}
 
 .navbar .menu-links{
   display: flex;
@@ -77,9 +82,10 @@ header .navbar{
 
 .lastLink {
   position: relative;
-  top: -10px;
+  top: 0px;
   font-size: 2rem;
   cursor: pointer;
+  list-style: none;
 }
 
 .lastLink span:hover {
@@ -112,7 +118,7 @@ header .navbar{
 
 .hero-section .content p{
   font-weight: 400;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   max-width: 600px;
 }
 
